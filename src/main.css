@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+}
+
+body{
+  position: relative;
+}
+
+img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.text{
+  color: white;
+  height: 350px;
+  position: relative;
+  padding-top: 10px;
+  background-color: rgb(176, 161, 141);
+
+}
+
+.text *{
+  margin-bottom: 20px;
+}
+.text h3:nth-child(1){
+  text-align: center;
+}
+
+.text h2:nth-child(2){
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.text p:nth-child(3){
+  text-align: center;
+}
+
+.text p:nth-child(4){
+  text-align: center;
+  position: absolute;
+  bottom: 15px;
+  right: 42%;
+}
+
+@media screen and (min-width: 1024px) {
+  body{
+    display: flex;
+    }
+    img{
+      display: block;
+      width: 40%;
+      height: 825px;
+    }
+    .text{
+      height: 815px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+}
